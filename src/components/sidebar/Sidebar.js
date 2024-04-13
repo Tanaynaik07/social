@@ -1,6 +1,6 @@
 import React from 'react';
 import "../sidebar/sidebar.css";
-import sideicon from "../../assests/soon.png";
+ 
 
 class Sidebar extends React.Component {
   handleClick(option) {
@@ -9,8 +9,9 @@ class Sidebar extends React.Component {
 
   render() {
     return (
+      
       <div className="sidebar">
-        <img src={sideicon} alt="Sidebar Icon" />
+ 
         <ul>
           <li onClick={() => this.handleClick("Home")}>Home</li>
           <li onClick={() => this.handleClick("Explore")}>Explore</li>

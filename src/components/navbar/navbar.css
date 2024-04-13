@@ -1,8 +1,12 @@
 #navbar{
     height: 15vh;
+    position: fixed;
     align-items: center;
     display: flex;
     justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 #navbar img{

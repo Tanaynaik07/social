@@ -4,7 +4,7 @@
     background: grey;
     width: fit-content;
     min-width: 30%;
-
+    margin:  5rem 0;
 }
 
 .post-head{
@@ -25,13 +25,24 @@
     border-radius: 50%;
 }
 
+
+.post-body{
+    width: 35vw;
+}
 .post-img{
     margin-top: 2rem;
-    max-width: 80%;
+     width: 100%;
     margin-bottom: 2rem;
+    height: auto;
 }
 
 .inter-section{
     display: flex;
-    
+    gap: 1rem;
+}
+
+
+ 
+.inter-section i::before{
+    font-size: 26px;
 }

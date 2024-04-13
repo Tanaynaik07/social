@@ -39,7 +39,7 @@ const Post = (props) => {
 
             <div className="inter-section">
                 {liked ? (
-                    <i class="fa-solid fa-heart" style={{ color: "#63E6BE" }} onClick={toggleLike}></i>
+                    <i class="fa-solid fa-heart" style={{ color: "pink" }} onClick={toggleLike}></i>
                 ) : (
                     <i className="fa-regular fa-heart" onClick={toggleLike}></i>
                 )}
