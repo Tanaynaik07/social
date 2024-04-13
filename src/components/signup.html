@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .input-group {
+            margin-bottom: 20px;
+        }
+        
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .input-group input {
+            width: 92.5%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .input-group input:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+        
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .loginlink{
+            text-decoration: none;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Sign Up</h2>
+        <form action="#">
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="input-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <!-- Additional details -->
+            <div class="input-group">
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+            <div class="input-group">
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+            <button type="submit" class="btn">Sign Up</button>
+        </form>
+    </div>
+    <p>Already have an account? <a href="login.html" class="loginlink">Login</a></p>
+</body>
+</html>
