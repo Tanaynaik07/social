@@ -1,0 +1,19 @@
+#navbar{
+    height: 15vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar img{
+    height: 80%;
+}
+
+ 
+
+
+#login{
+    position: relative;
+    right: 4rem;
+}
+ 

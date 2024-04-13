@@ -1,0 +1,37 @@
+.post{
+    height: fit-content;
+    padding:3rem 3rem;
+    background: grey;
+    width: fit-content;
+    min-width: 30%;
+
+}
+
+.post-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.profile-img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.post-img{
+    margin-top: 2rem;
+    max-width: 80%;
+    margin-bottom: 2rem;
+}
+
+.inter-section{
+    display: flex;
+    
+}
